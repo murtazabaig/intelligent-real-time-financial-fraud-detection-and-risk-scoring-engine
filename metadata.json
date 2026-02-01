@@ -1,0 +1,43 @@
+{
+  "id": 11862,
+  "title": "Intelligent Real-Time Financial Fraud Detection and Risk Scoring Engine",
+  "slug": "intelligent-real-time-financial-fraud-detection-and-risk-scoring-engine-11862",
+  "description": "HOW IT WORKSAutomates fraud risk detection for financial transactions by analyzing real-timewebhook events through AI-powered scoring. Target audience: fintech companies,payment processors, and banking teams preventing fraud losses. Problem solved:manual fraud checks are reactive and slow; automated detection catchessuspicious transactions instantly. Workflow receives transactions via webhook,configures processing parameters, runs OpenAI GPT-4 fraud analysis, calculatesrisk scores, branches on risk level, holds high-risk transactions, alerts fraudteams, logs incidents, and documents evidence for compliance investigations.SETUP STEPS 1. Configure webhook endpoint for transaction ingestion. 2. Set OpenAI API key and fraud detection prompts. 3. Connect Google Sheets for incident logging. 4. Enable email alerts to fraud team distribution list. 5. Map risk thresholds (high/low).PREREQUISITESOpenAI API key, webhook-capable transaction source, Gmail for alerts, GoogleSheets access, incident tracking database.USE CASESPayment processors detecting card fraud, fintech platforms catching accounttakeoversCUSTOMIZATIONAdjust risk thresholds and scoring logic. Add phone/SMS alerts for urgency.BENEFITSDetects fraud within seconds, reduces financial losses by up to 90%",
+  "metadescription": "Automate fraud detection with AI-powered, real-time risk scoring for financial transactions. Instantly flag threats and reduce losses—learn more now.",
+  "summary": "AI-driven fraud detection analyzes transactions instantly, scoring risk levels to flag suspicious activity before losses occur.  \nWebhook integration enables real-time ingestion of financial events for seamless automation.  \nOpenAI GPT-4 powers fraud analysis, dynamically calculating risk and branching workflow actions.  \nHigh-risk transactions are held, alerts sent to fraud teams, and incidents logged in Google Sheets for compliance tracking.  \nEasy setup with webhook, OpenAI API, Gmail alerts, and customizable risk thresholds.  \nVersatile for payment processors and fintech platforms; adjustable scoring logic and urgent phone/SMS alerts available.  \nRapid fraud detection reduces financial losses by up to 90%.",
+  "date": "16 Dec 2025",
+  "createdAtRaw": "2025-12-16T12:51:18.578+00:00",
+  "categories": [
+    "SecOps",
+    "AI Summarization"
+  ],
+  "nodeTypes": [
+    "n8n-nodes-base.if",
+    "n8n-nodes-base.set",
+    "n8n-nodes-base.slack",
+    "n8n-nodes-base.webhook",
+    "n8n-nodes-base.emailSend",
+    "n8n-nodes-base.stickyNote",
+    "n8n-nodes-base.httpRequest",
+    "n8n-nodes-base.googleSheets",
+    "@n8n/n8n-nodes-langchain.agent",
+    "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+    "@n8n/n8n-nodes-langchain.outputParserStructured"
+  ],
+  "author": {
+    "name": "Cheng Siong Chin",
+    "username": "cschin",
+    "avatar": "https://gravatar.com/avatar/54544f98e839bb9dd9a764ad1e6823eeddb6db5138d201e42f291a7b0a73303f?r=pg&d=retro&size=200",
+    "verified": true
+  },
+  "popularity": 30,
+  "visitors": 44,
+  "inserters": 11,
+  "templateUrl": "https://n8n.io/workflows/11862",
+  "readme": "",
+  "thumbnail": "https://supabase.amastuces.com/storage/v1/object/public/worklowscreenshot/11862-intelligent-real-time-financial-fraud-detection-and-risk-scoring-engine.webp",
+  "complexityLevel": "advanced",
+  "templateData": null,
+  "price": 0,
+  "referalUrl": null
+}
